@@ -1,0 +1,130 @@
+body{
+    background-color:lightgray ;
+
+}
+
+.navbar-default{
+    background-color:white;
+    color: black;
+
+
+}
+
+.navbar-brand {
+    background: turquoise;
+    font-size: 50px;
+    font-weight: 300;
+    color;
+}
+
+.navbar-header{
+    width:100px;
+    margin-left:75px;
+}
+
+
+
+.content{
+    margin-top:100px;
+}
+
+h1 {
+	font-size: 28px;
+  font-weight: 300;
+  text-align: center
+}
+
+h2 {
+	font-size: 24px;
+  font-weight: 300;
+  text-align: center
+}
+
+h3 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.box {
+  color:black;
+  background:whitesmoke;
+  font-weight: 200;
+  background-color:whitesmoke;
+}
+
+.box-left {
+  padding: 20px;
+}
+
+.box-right {
+  padding: 30px;
+}
+
+.box-single {
+  padding: 50px;
+  margin: 70px;
+}
+
+#summary {
+  margin: 10px;
+  font-size: 17px;
+  line-height: 1.8em;
+}
+
+
+#landing-viz {
+  padding:15px 15px 15px 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.figure:active{
+  border: 5px: white;
+}
+
+.jumbotron {
+  color: #fff;
+  background:white ;
+  width: 100%;
+  height: 100%;
+  padding: 25px
+}
+
+.table {
+  color: black;
+  background: white;
+  width: 100%;
+  height: 100%;
+  padding: 15px
+
+}
+
+#viz-main {
+  padding: 25px 40px 30px 40px;
+  width: 100%;
+ }
+
+.row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+  .row.row-grid [class*="col-xs-"] + [class*="col-xs-"] {
+      margin-top: 0;
+  }
+}
